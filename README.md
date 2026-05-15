@@ -33,9 +33,10 @@ This project implements advanced neural network architectures for representing q
 
 ## Dependencies
 
+- **Python** 3.13.5 - Programming language
 - **JAX** - Automatic differentiation and numerical computing
 - **Flax** - Neural network library built on JAX
-- **NetKet** - Quantum many-body system toolkit
+- **NetKet** 3.20.3 - Quantum many-body system toolkit
 - **NumPy** - Numerical operations
 - **Jupyter** - Interactive notebooks
 
@@ -46,8 +47,8 @@ This project implements advanced neural network architectures for representing q
 git clone https://github.com/sweetpotat5/Multi-determinant-nerual-network-backflow.git
 cd Multi-determinant-nerual-network-backflow
 
-# Install dependencies
-pip install jax flax netket numpy jupyter
+# Install dependencies (requires Python 3.13.5)
+pip install jax flax netket==3.20.3 numpy jupyter
 ```
 
 ## Usage
