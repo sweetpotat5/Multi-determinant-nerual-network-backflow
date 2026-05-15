@@ -4,5 +4,5 @@ A JAX-based implementation of multi-determinant neural network wavefunctions wit
 
 ## Dependencies
 
-- **Python** 3.13.5 - Programming language
-- **NetKet** 3.20.3 - Quantum many-body system toolkit
+- **Python** 3.13.5 
+- **NetKet** 3.20.3 
