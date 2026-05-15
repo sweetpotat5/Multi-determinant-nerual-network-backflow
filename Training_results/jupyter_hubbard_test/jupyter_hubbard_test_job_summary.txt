@@ -1,0 +1,1 @@
+4x8 lattice, 1/8 doping, U=8
