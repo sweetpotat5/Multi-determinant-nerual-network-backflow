@@ -1,6 +1,6 @@
 # Multi-Determinant Neural Network Backflow
 
-A JAX-based implementation of multi-determinant neural network wavefunctions with backflow transformations for quantum many-body systems.
+A JAX-based implementation of multi-determinant neural network wavefunctions with backflow transformations for the 2D Hubbard model.
 
 ## Dependencies
 
