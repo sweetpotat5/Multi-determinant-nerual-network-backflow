@@ -302,7 +302,9 @@ class MultiDeterminant(nn.Module):
             logpsi_extra = (logamp_A[:, None] + logamp_B).astype(complex) + jnp.log((sign_A[:, None] * sign_B).astype(complex))
             
             # Flatten to a single vector of determinants
-            return jnp.concatenate((logpsi_A[0:1], logpsi_extra.flatten()))
+            result = jnp.concatenate((logpsi_A, logpsi_extra.flatten()))
+
+            return result
 
         # Batch over the input configurations
         logdets = jax.vmap(compute_logdets_single)(F_modifier, nonzero_indices)
