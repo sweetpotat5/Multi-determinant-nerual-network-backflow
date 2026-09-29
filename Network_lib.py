@@ -9,8 +9,6 @@ from typing import Any, Callable, Sequence
 DType = Any
 
 
-import jax.numpy as jnp
-from flax import linen as nn
 
 class EmbeddingModule(nn.Module):
     embedding_dim: int
